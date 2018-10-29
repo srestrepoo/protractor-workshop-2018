@@ -1,0 +1,1 @@
+{"version":3,"file":"local.config.js","sourceRoot":"","sources":["../../protractor/local.config.ts"],"names":[],"mappings":";;AAAA,2CAA6C;AAC7C,iDAA8C;AAEjC,QAAA,MAAM,GAAW;IAC5B,SAAS,EAAE,SAAS;IACpB,KAAK,EAAE,CAAE,wBAAwB,CAAE;IACnC,kDAAkD;IAClD,wBAAwB,EAAE,KAAK;IAC/B,SAAS,EAAE,GAAG,EAAE;QACd,oBAAO,CAAC,qBAAqB,GAAG,IAAI,CAAC;QACrC,mBAAQ,EAAE,CAAC;IACb,CAAC;CACF,CAAC"}
