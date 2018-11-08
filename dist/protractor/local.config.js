@@ -13,6 +13,7 @@ exports.config = {
     SELENIUM_PROMISE_MANAGER: false,
     onPrepare: () => {
         protractor_1.browser.ignoreSynchronization = true;
+        protractor_1.browser.manage().timeouts().implicitlyWait(3000);
         reporter_1.reporter();
     }
 };
