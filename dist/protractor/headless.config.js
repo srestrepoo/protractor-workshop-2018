@@ -19,7 +19,7 @@ exports.config = {
     },
     onPrepare: () => {
         protractor_1.browser.ignoreSynchronization = true;
-        protractor_1.browser.manage().timeouts().implicitlyWait(3000);
+        protractor_1.browser.manage().timeouts().implicitlyWait(0);
         reporter_1.reporter();
     }
 };
