@@ -16,18 +16,18 @@ describe('open website', () => {
       await browser.wait(
         ExpectedConditions.elementToBeClickable(
           $('#block_top_menu > ul > li:nth-child(3) > a')),
-        3000);
+        5000);
       await menuContentPage.goToTShirtMenu();
       await productListPage.addToCar();
       await browser.wait(
         ExpectedConditions.elementToBeClickable(
           $('[style*="display: block;"] .button-container > a')),
-        3000);
+        5000);
       await productAddedModalPage.confirmAdded();
       await browser.wait(
         ExpectedConditions.elementToBeClickable(
           $('.cart_navigation span')),
-        3000);
+        5000);
       await summaryStepPage.proceed();
     });
     describe('Login', async () => {
@@ -42,7 +42,7 @@ describe('open website', () => {
           await browser.wait(
             ExpectedConditions.elementToBeClickable(
              $('#center_column > form > p > button > span')),
-            3000);
+            5000);
           await addressStepPage.proceed();
           await shippingStepPage.confirmTerms();
           await shippingStepPage.proceed();
