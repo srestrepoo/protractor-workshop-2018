@@ -6,11 +6,10 @@ exports.config = {
     framework: 'jasmine',
     specs: ['../test/**/*.spec.js'],
     getPageTimeout: 30000,
+    SELENIUM_PROMISE_MANAGER: false,
     jasmineNodeOpts: {
         defaultTimeoutInterval: 120000
     },
-    //seleniumAddress: 'http://localhost:4444/wd/hub',
-    SELENIUM_PROMISE_MANAGER: false,
     capabilities: {
         browserName: 'chrome',
         chromeOptions: {
