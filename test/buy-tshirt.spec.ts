@@ -18,7 +18,7 @@ describe('open website', () => {
           $('#block_top_menu > ul > li:nth-child(3) > a')),
         5000);
       await menuContentPage.goToTShirtMenu();
-      await productListPage.addToCar();
+      await productListPage.selectProduct('Faded Short Sleeve T-shirts');
       await browser.wait(
         ExpectedConditions.elementToBeClickable(
           $('[style*="display: block;"] .button-container > a')),
